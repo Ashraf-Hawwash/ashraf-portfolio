@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashraf Hawwash | Financial Systems Expert</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+:root{
+  --primary:#38bdf8;
+  --bg:#020617;
+  --card:#0f172a;
+  --text:#f1f5f9;
+  --muted:#94a3b8;
+}
+
+body{
+  margin:0;
+  font-family:Arial;
+  background: radial-gradient(circle at top,#1e293b,#020617);
+  color:var(--text);
+}
+
+/* HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 8%;
+  position:sticky;
+  top:0;
+  background:rgba(2,6,23,0.8);
+  backdrop-filter:blur(10px);
+}
+
+.logo{
+  font-weight:bold;
+  font-size:1.2rem;
+}
+
+.nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:var(--muted);
+}
+
+.nav a:hover{
+  color:var(--primary);
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:100px 8%;
+  gap:50px;
+}
+
+.hero-text h1{
+  font-size:3rem;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  color:var(--muted);
+  margin-bottom:20px;
+}
+
+.btn{
+  padding:12px 25px;
+  border-radius:30px;
+  border:1px solid var(--primary);
+  color:var(--primary);
+  text-decoration:none;
+  display:inline-block;
+  transition:.3s;
+}
+
+.btn:hover{
+  background:var(--primary);
+  color:#000;
+}
+
+/* IMAGE */
+.hero img{
+  width:260px;
+  border-radius:50%;
+  border:3px solid var(--primary);
+}
+
+/* SECTION */
+.section{
+  padding:60px 8%;
+}
+
+.section h2{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:30px;
+}
+
+/* CARD */
+.card{
+  background:var(--card);
+  border-radius:20px;
+  overflow:hidden;
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
+
+.card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.card-body{
+  padding:20px;
+}
+
+.card-body h3{
+  margin-bottom:10px;
+}
+
+/* SERVICES */
+.services{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+}
+
+.service{
+  padding:10px 18px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.1);
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.service i{
+  color:var(--primary);
+}
+
+/* CTA */
+.cta{
+  text-align:center;
+  padding:80px;
+}
+
+.cta a{
+  margin-top:20px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:var(--muted);
+}
+
+@media(max-width:900px){
+.hero{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">ASHRAF REDA HAWWASH</div>
+
+  <div class="nav">
+    <a href="https://www.linkedin.com/in/ashrafhawwash/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://wa.me/201557680086" target="_blank">
+  <i class="fab fa-whatsapp"></i> WhatsApp
+</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+
+<div class="hero-text">
+<h1>Fix Your Cash Flow & Take Control of Your Business</h1>
+
+<p>
+Struggling with collections, reporting, or unclear financial data?  
+I build financial systems that give you full visibility and control.
+</p>
+
+<a href="mailto:ashrafhawwash@gmail.com" class="btn">Book Free Consultation</a>
+</div>
+
+<img src="image_02d4fa.jpg">
+
+</section>
+
+<!-- DASHBOARDS -->
+<section class="section">
+<h2>Real Financial Dashboards</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="Picture1.png">
+<div class="card-body">
+<h3>Cash Flow Dashboard</h3>
+<p>Track inflow & outflow clearly</p>
+</div>
+</div>
+
+<div class="card">
+<img src="DB2.png">
+<div class="card-body">
+<h3>P&L Dashboard</h3>
+<p>Understand business performance</p>
+</div>
+</div>
+
+<div class="card">
+<img src="DB3.png">
+<div class="card-body">
+<h3>Sales Dashboard</h3>
+<p>Identify profit drivers</p>
+</div>
+</div>
+
+<div class="card">
+<img src="DB4.png">
+<div class="card-body">
+<h3>Collections Dashboard</h3>
+<p>Track installments & payments</p>
+</div>
+</div>
+
+<div class="card">
+<img src="DB5.png">
+<div class="card-body">
+<h3>Procurement Dashboard</h3>
+<p>Control supplier performance</p>
+</div>
+</div>
+
+<div class="card">
+<img src="DB6.png">
+<div class="card-body">
+<h3>Inventory Dashboard</h3>
+<p>Improve stock visibility</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="section">
+<h2>What I Deliver</h2>
+
+<div class="services">
+<div class="service"><i class="fas fa-chart-bar"></i> Power BI Dashboards</div>
+<div class="service"><i class="fas fa-coins"></i> Cash Flow Systems</div>
+<div class="service"><i class="fas fa-users"></i> Collection Tracking</div>
+<div class="service"><i class="fas fa-file-invoice"></i> ERP Reports</div>
+<div class="service"><i class="fas fa-bolt"></i> Excel Automation</div>
+<div class="service"><i class="fas fa-shield-alt"></i> Internal Controls</div>
+</div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+<h2>Let’s Fix Your Financial System</h2>
+
+<p>
+Book a free consultation and start controlling your numbers today.
+</p>
+
+<a href="https://wa.me/201557680086?text=Hello%20Ashraf%2C%20I%20saw%20your%20portfolio%20and%20I%27m%20interested" class="btn" target="_blank">
+Start WhatsApp Chat
+</a>
+</section>
+
+<footer>
+<p>© 2026 Ashraf Hawwash</p>
+</footer>
+
+</body>
+</html>
